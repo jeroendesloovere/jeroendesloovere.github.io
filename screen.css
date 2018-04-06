@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #666;
+	text-align: center;
+}
+
+/**
+ * Ain't I'm in pretty in the middle!
+ */
+#container {
+	margin: 50px auto;
+	width: 200px;
+}
+
+#container div {
+	margin-bottom: 40px;	
+}
+
+/**
+ * Ain't I'm using nice colors mommy?
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;	
+	margin: 0px;
+}
+h1 {
+	font-size: 1.125em;
+	margin-bottom: 0.2em;
+}
+h2 {
+	font-size: 1.25em;
+}
+
+/**
+ * Ain't I'm using my first class here, hell yeah!
+ */
+.header, .header .link {
+	color: #fff;	
+}
+
+.link {
+	color: #666;
+}
+.link:link, .link:visited {
+	text-decoration: none;	
+}
+
+.link:hover, .link:active {
+	text-decoration: underline;	
+}
+
+/**
+ * Ain't I'm pretty!
+ */
+#myHead {
+	background: url(images/my_head.jpg) no-repeat;
+	margin: 0 auto;
+	width: 150px;
+	height: 250px;
+	display: block;
+	text-indent: -9999px;
+}
+
+/**
+ * Ain't I'm talented?!?
+ */
+#myProfile {
+	/* crap, no code here */
+}
+
+/**
+ * Ain't I'm awesome to follow?!?
+ */
+#followMe h2 {
+	font-size: 1em;
+}
